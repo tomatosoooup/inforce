@@ -1,0 +1,148 @@
+{
+  "products": [
+    {
+      "id": "df9bf67f-6959-48e2-ba97-6d8ae9b80baa",
+      "name": "Продукт №1",
+      "count": 35,
+      "size": {
+        "width": "35354",
+        "height": "35"
+      },
+      "weight": "353",
+      "imageUrl": "https://picsum.photos/seed/pqcaJvT/640/480"
+    },
+    {
+      "id": "570734ce-3275-428f-9d4f-e2fa66ea7e85",
+      "name": "5636",
+      "count": 36,
+      "size": {
+        "width": "3636",
+        "height": "63"
+      },
+      "weight": "3636",
+      "imageUrl": "https://picsum.photos/seed/Hqdq7/640/480"
+    },
+    {
+      "id": "cd768d51-c08c-4f71-bba3-e67bd90e340f",
+      "name": "5636",
+      "count": 36,
+      "size": {
+        "width": "3636",
+        "height": "63"
+      },
+      "weight": "3636",
+      "imageUrl": "https://picsum.photos/seed/FpeBI/640/480"
+    },
+    {
+      "id": "1a177e68-af03-453d-b501-718639f30b61",
+      "name": "Апероль",
+      "count": 122,
+      "size": {
+        "width": "243",
+        "height": "444"
+      },
+      "weight": "2455",
+      "imageUrl": "https://picsum.photos/seed/5niBgve/640/480"
+    },
+    {
+      "id": "7596d6f1-f42f-4878-8d11-21e4c183aab4",
+      "name": "Серп",
+      "count": 122,
+      "size": {
+        "width": "13",
+        "height": "354"
+      },
+      "weight": "444",
+      "imageUrl": "https://picsum.photos/seed/1jj4B1S/640/480"
+    },
+    {
+      "id": "49c6aacf-fb0f-4e87-9ad1-3f86afc91c09",
+      "name": "Тест",
+      "count": 34,
+      "size": {
+        "width": "122",
+        "height": "355"
+      },
+      "weight": "333",
+      "imageUrl": "https://picsum.photos/seed/HB1NA/640/480"
+    },
+    {
+      "id": "d0ee28c0-4478-4913-82fa-1f3c6298dc49",
+      "name": "Ще один текст",
+      "count": 4,
+      "size": {
+        "width": "13",
+        "height": "24"
+      },
+      "weight": "24",
+      "imageUrl": "https://picsum.photos/seed/Z2NGq7jpc/640/480"
+    },
+    {
+      "id": "aa443227-6e11-4521-97c6-99821bc4e6b9",
+      "name": "Тестове",
+      "count": "363456",
+      "size": {
+        "width": "456",
+        "height": "35"
+      },
+      "weight": "44",
+      "imageUrl": "https://picsum.photos/seed/x21FH/640/480"
+    },
+    {
+      "id": "e44f12e9-93ed-4027-ab5c-a3225a6349a7",
+      "name": "Продукт",
+      "count": 7,
+      "size": {
+        "width": "24",
+        "height": "2442"
+      },
+      "weight": "444",
+      "imageUrl": "https://picsum.photos/seed/kbWx7q/640/480"
+    }
+  ],
+  "comments": [
+    {
+      "id": "3",
+      "productId": 1,
+      "description": "some text here",
+      "date": "14:00 22.08.2021"
+    },
+    {
+      "id": "0ec9",
+      "text": "egegerger"
+    },
+    {
+      "id": "97a3",
+      "text": "erthrtthrt"
+    },
+    {
+      "id": "84ef",
+      "text": "rgergerg"
+    },
+    {
+      "id": "0a25",
+      "productId": "df9bf67f-6959-48e2-ba97-6d8ae9b80baa",
+      "description": "wefwefwef"
+    },
+    {
+      "id": "d4f1",
+      "productId": "570734ce-3275-428f-9d4f-e2fa66ea7e85",
+      "description": "rhrth"
+    },
+    {
+      "id": "81b4",
+      "productId": "df9bf67f-6959-48e2-ba97-6d8ae9b80baa",
+      "description": "eyhetyheth"
+    },
+    {
+      "id": "7844",
+      "productId": "df9bf67f-6959-48e2-ba97-6d8ae9b80baa",
+      "description": "the5the5tyh56yhet6yh"
+    },
+    {
+      "id": "3ac8",
+      "productId": "570734ce-3275-428f-9d4f-e2fa66ea7e85",
+      "description": "Testing review"
+    }
+  ]
+}
