@@ -65,7 +65,7 @@ export const UpdateTodoModal = () => {
       form.setValue("description", todo.description);
       form.setValue("status", todo.status);
     }
-  }, [todo]);
+  }, [todo, form]);
 
   const isLoading = form.formState.isSubmitting;
 

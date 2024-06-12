@@ -40,6 +40,13 @@ export const UpdateBoardForm = ({ boardId }: BoardProps) => {
   const [isPending, startTransition] = useTransition();
   const router = useRouter();
 
+  const form = useForm({
+    resolver: zodResolver(boardSchema),
+    defaultValues: {
+      name: "",
+    },
+  });
+
   useEffect(() => {
     const find = async () => {
       const board: BoardType = (await findBoard(boardId as string))
@@ -50,14 +57,7 @@ export const UpdateBoardForm = ({ boardId }: BoardProps) => {
     };
 
     find();
-  }, [boardId]);
-
-  const form = useForm({
-    resolver: zodResolver(boardSchema),
-    defaultValues: {
-      name: "",
-    },
-  });
+  }, [boardId, form]);
 
   const onSubmit = async (values: z.infer<typeof boardSchema>) => {
     startTransition(() => {
@@ -95,7 +95,7 @@ export const UpdateBoardForm = ({ boardId }: BoardProps) => {
                 render={({ field }) => (
                   <FormItem>
                     <FormLabel className="uppercase text-xs font-bold text-zinc-500">
-                      Board's name
+                      Boards name
                     </FormLabel>
                     <FormControl>
                       <Input {...field} placeholder="Enter name for board" />

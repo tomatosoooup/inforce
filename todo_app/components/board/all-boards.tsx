@@ -18,8 +18,8 @@ export const AllBoards = () => {
   }, []);
   return (
     <ul className="flex flex-col gap-y-2">
-      {boards.map(({ id, name }) => (
-        <li className="flex flex-col">
+      {boards.map(({ id, name }, index) => (
+        <li className="flex flex-col" key={index}>
           <span className="font-bold">{name}</span>
           <span
             className="text-gray-500 cursor-pointer"
