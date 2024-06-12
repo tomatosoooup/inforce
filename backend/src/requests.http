@@ -1,0 +1,27 @@
+POST http://localhost:8000/boards
+Content-Type: application/json
+
+{
+    "name": "new board"
+}
+
+
+POST http://localhost:8000/todos
+Content-Type: application/json
+
+{
+    "title": "New todo from backend",
+    "description": "New todo with description and extra fields",
+    "boardId": "clxaf595p000010suviiwehty"
+}
+
+PATCH http://localhost:8000/todos/2
+Content-Type: application/json
+
+{   
+    "title": "changed todo number #2",
+    "description": "new changed description",
+    "status": "IN_PROGRESS"
+}
+
+DELETE http://localhost:8000/todos/10
